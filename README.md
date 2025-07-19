@@ -3,3 +3,7 @@ This repository was created for personal familiarization with the playwright and
 
 ### 1_playwright_scraper.py
 Here we scrape a documentation site. You can substitute your link and see the result. The script is written without "stealth" because there is no captcha or anything like that.
+
+### 2_playwright_captcha_detect.py
+Here we try to detect captcha and pass it, if it not show any puzzle to stop us.  
+(Spoiler) The captcha show us an puzzle and script return False. We will deal with it in a next script.
