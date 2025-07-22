@@ -2,3 +2,4 @@ venv_playwright/
 *.pyc
 __pycache__/
 .vscode/
+.env
