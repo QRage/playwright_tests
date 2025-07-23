@@ -12,3 +12,21 @@ This script builds upon the previous attempts by integrating playwright-stealth 
 * Apply stealth techniques to make the automated browser less detectable.
 * Utilize a third-party CAPTCHA solving service to obtain a valid CAPTCHA token.
 * Inject the solved token back into the web page to successfully pass the reCAPTCHA challenge, even when a visual puzzle is presented.
+
+### 🛠️ 4_create_outlook_account.py
+This script automates the process of creating a new Outlook.com (Microsoft) account using Playwright. It's designed to navigate through the registration flow, fill out forms, handle interactive elements, and includes features to enhance reliability and detect bot countermeasures:
+* Browser Automation: Utilizes Playwright to control a Chromium browser, simulating user interactions like clicks, typing, and navigation.
+* Stealth Capabilities: Integrates playwright-stealth to modify browser fingerprints and reduce the likelihood of detection by anti-bot systems.
+* Dynamic UI Handling: Employs robust Playwright locators to interact with dynamically generated form fields and custom dropdown menus (e.g., for birth date selection).
+* CAPTCHA Bypass (Press & Hold): Includes logic to detect and solve "Press & Hold Human Challenge" CAPTCHAs by simulating mouse movements and prolonged clicks.
+* Detection Monitoring: Implements a detection mechanism to identify if the automation has been flagged or blocked by Microsoft's security systems, providing an early exit and a clear indication of failure.
+
+This script demonstrates advanced web automation techniques suitable for complex registration processes.
+
+#### --- DISCLAIMER ---
+This script is created for educational purposes only, to demonstrate web automation  
+techniques using Playwright and Playwright Stealth. It is not intended to encourage  
+or facilitate the circumvention of security measures or bot prevention mechanisms  
+by online services. Users are responsible for ensuring their actions  
+comply with the terms of service of any website they interact with.
+#### --- END OF DISCLAIMER ---
